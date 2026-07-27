@@ -1,4 +1,16 @@
 aid: intent-media
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intent-media.png
 name: Intent Media
 description: Intent Media is a company surfaced as a portfolio company of redpoint-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -12,7 +24,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-enrichment:
+  last_run: '2026-07-19'
+  status: no-surface
+  finding: >-
+    Original Intent Media (NYC travel e-commerce ad-tech, backed by Redpoint) is
+    defunct; intentmedia.com now resolves (HTTP 200) to an unrelated repurposed
+    content/affiliate blog, not the subject company. No API, no OpenAPI, and no
+    developer/portal/docs surface exists. No artifacts were generated to avoid
+    fabricating a developer surface that does not exist.
 tags:
 - Company
 apis: []
